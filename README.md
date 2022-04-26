@@ -1,6 +1,6 @@
 # Movie Watchlist
 
-## A movie watchlist which has several categories
+A movie watchlist which has several categories
 
 ## Technologies Used
 
