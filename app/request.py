@@ -43,7 +43,7 @@ def process_results(movie_list):
 
 
 def get_movie(id):
-    get_movie_details_url = base_url.format(id, api_key)
+    get_movie_details_url = base_url.format(id,api_key)
 
     with urllib.request.urlopen(get_movie_details_url) as url:
         movie_details_data = url.read()
