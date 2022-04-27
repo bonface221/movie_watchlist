@@ -1,6 +1,10 @@
 # Movie Watchlist
 
-A movie watchlist which has several categories
+A movie watchlist which has several  movie categories where users can vote for
+
+## Description
+![image](./app/static/images/watchlist-readme-img.png)
+
 
 ## Technologies Used
 
