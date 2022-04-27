@@ -1,0 +1,11 @@
+ul {
+	list-style-type: none;
+}
+.movie-card a {
+	color: green;
+	font-size: 1.4rem;
+}
+.movie-card a:hover {
+	padding-bottom: 20px;
+	border-bottom: 1px solid green;
+}
