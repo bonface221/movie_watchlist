@@ -23,6 +23,9 @@ ul {
 	flex: 1 1 25rem;
 	overflow: hidden;
 }
+.movie-card image img{
+	height: 23rem;
+}
 .movie-card img:hover{
 	transform: scale(1.1);
 }

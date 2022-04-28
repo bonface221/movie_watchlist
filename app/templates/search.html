@@ -1,12 +1,15 @@
 {% extends 'base.html'%}
 {% import 'macros.html' as macro%}
-
+{% block styles%} 
+ {{super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/search.css')}}" />
+{% endblock %}
 {% block content %} 
     <div class="containter">
         <div class="row">
-            <h3>Found {{ movies | count}} matches</h3>
+            <h3 id="found" class="text-center">Found {{ movies | count}} matches</h3>
             <hr>
-            <ul>
+            <ul class="box">
                 {{ macro.displayMovieList(movies)}}
             </ul>
         </div>

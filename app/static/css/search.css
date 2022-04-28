@@ -1,0 +1,23 @@
+*{
+    list-style-type: none;
+    overflow-x: hidden;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+    margin-right: 3rem;
+    justify-content: space-around;
+}
+
+.movie-card img:hover{
+	transform: scale(1.1);
+}
+.movie-card li a{
+	font-size: 2.1rem;
+	font-weight: bold;
+	
+} 
+#found{
+    font-size: 3.4rem;
+    font-size: bolder;
+}

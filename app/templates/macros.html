@@ -9,10 +9,11 @@
 					class="img-responsive"
 				/>
 			</div>
-			
-			<li class="text-center pb-3">
-				<a href="/movie/{{movie.id}}"> {{movie.title|truncate(10)}} </a>
-			</li>
+			<div>
+				<li class="text-center pb-3">
+					<a href="/movie/{{movie.id}}"> {{movie.title|truncate(10)}} </a>
+				</li>
+			</div>			
 		</div>
 	{% endfor %}
  {% endmacro %}
